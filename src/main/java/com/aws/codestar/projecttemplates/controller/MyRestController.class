@@ -1,0 +1,7 @@
+@RestController
+public class MyRestController{
+@GetMapping("/")
+public String test(){
+return "Hello ...";
+}
+}
